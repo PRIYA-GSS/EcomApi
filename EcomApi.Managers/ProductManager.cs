@@ -14,10 +14,12 @@ namespace EcomApi.Managers
             _repo = repo;
             _mapper = mapper;
         }
-        public async Task<IList<Dto.Product>> GetAllAsync()
+        public async Task<IList<Dto.Product>> GetAllAsync(string? search)
         {
-            var ProductDto = await _repo.GetAllAsync();
-            return _mapper.Map<IList<Dto.Product>>(ProductDto);
+
+            var Products = await _repo.GetAllAsync();
+            var filtered = Products.Where(p => p.ProductName.ToLower().Contains(search.ToLower()));
+            return _mapper.Map<IList<Dto.Product>>(filtered);
 
         }
         public async Task<Dto.Product> GetByIdAsync(int id)

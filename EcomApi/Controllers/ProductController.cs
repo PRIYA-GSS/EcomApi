@@ -13,7 +13,7 @@ namespace EcomApi.Controllers
             _service = service;
         }
         [HttpGet]
-        public async Task<IActionResult> GetAllAsync()
+        public async Task<IActionResult> GetAllAsync(string? search)
         {
             var Products = await _service.GetAllAsync();
             return Ok(Products);

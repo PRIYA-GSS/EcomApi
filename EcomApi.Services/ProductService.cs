@@ -11,7 +11,7 @@ namespace EcomApi.Services
         {
             _manager = manager;
         }
-        public async Task<IList<Dto.Product>> GetAllAsync() => await _manager.GetAllAsync();
+        public async Task<IList<Dto.Product>> GetAllAsync(string? search) => await _manager.GetAllAsync(search);
         public async Task<Dto.Product> GetByIdAsync(int id) => await _manager.GetByIdAsync(id);
         public async Task AddAsync(Dto.Product Product) => await _manager.AddAsync(Product);
         public async Task UpdateAsync(Dto.Product Product) => await _manager.UpdateAsync(Product);

@@ -9,7 +9,7 @@ namespace EcomApi.Interfaces.IServices
     public interface IProductService
     {
 
-        Task<IList<Dto.Product>> GetAllAsync();
+        Task<IList<Dto.Product>> GetAllAsync(string? search);
         Task<Dto.Product> GetByIdAsync(int id);
         Task AddAsync(Dto.Product product);
         Task UpdateAsync(Dto.Product Product);
