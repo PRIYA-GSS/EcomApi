@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36623.8
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EcomApi", "EcomApi\EcomApi.csproj", "{F10A69A7-C8A3-4D8D-8BF2-60968D4D4078}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EcomApi.DataAccess", "EcomApi.DataAccess\EcomApi.DataAccess.csproj", "{32B546CE-43F7-4E8F-8AA9-242652AE174D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EcomApi.Models", "EcomApi.Models\EcomApi.Models.csproj", "{D2870B89-FD83-4A1C-8401-D9408E7CDB2F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EcomApi.Interfaces", "EcomApi.Interfaces\EcomApi.Interfaces.csproj", "{54782538-0556-4B6F-92B1-2996B5110EDD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EcomApi.Managers", "EcomApi.Managers\EcomApi.Managers.csproj", "{C69AFA6C-9001-4C99-99CE-039DE5462BE9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EcomApi.Services", "EcomApi.Services\EcomApi.Services.csproj", "{FAE91CB0-91C7-4354-A276-B8670E2C3005}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F10A69A7-C8A3-4D8D-8BF2-60968D4D4078}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F10A69A7-C8A3-4D8D-8BF2-60968D4D4078}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F10A69A7-C8A3-4D8D-8BF2-60968D4D4078}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F10A69A7-C8A3-4D8D-8BF2-60968D4D4078}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32B546CE-43F7-4E8F-8AA9-242652AE174D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32B546CE-43F7-4E8F-8AA9-242652AE174D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32B546CE-43F7-4E8F-8AA9-242652AE174D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32B546CE-43F7-4E8F-8AA9-242652AE174D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2870B89-FD83-4A1C-8401-D9408E7CDB2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2870B89-FD83-4A1C-8401-D9408E7CDB2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2870B89-FD83-4A1C-8401-D9408E7CDB2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2870B89-FD83-4A1C-8401-D9408E7CDB2F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54782538-0556-4B6F-92B1-2996B5110EDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54782538-0556-4B6F-92B1-2996B5110EDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54782538-0556-4B6F-92B1-2996B5110EDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54782538-0556-4B6F-92B1-2996B5110EDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C69AFA6C-9001-4C99-99CE-039DE5462BE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C69AFA6C-9001-4C99-99CE-039DE5462BE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C69AFA6C-9001-4C99-99CE-039DE5462BE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C69AFA6C-9001-4C99-99CE-039DE5462BE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAE91CB0-91C7-4354-A276-B8670E2C3005}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAE91CB0-91C7-4354-A276-B8670E2C3005}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAE91CB0-91C7-4354-A276-B8670E2C3005}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAE91CB0-91C7-4354-A276-B8670E2C3005}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F554E748-D35F-45AA-B7D7-B6E2663AD62C}
+	EndGlobalSection
+EndGlobal
